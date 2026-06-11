@@ -19,3 +19,8 @@ async function fetchTrees(commonName){
         console.error("Failed to fetch trees:", error.message);
     }
 }
+
+function getSelectedTree(){
+    const dropdown = document.getElementById("treeSearch");
+    return dropdown.value;
+}
