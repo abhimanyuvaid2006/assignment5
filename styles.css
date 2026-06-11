@@ -1,0 +1,62 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 1em 2em;
+}
+
+main {
+    padding: 2em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+select {
+    padding: 0.625em;
+    margin-right: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 0.25em;
+    margin-bottom: 0.9375em;
+}
+
+button {
+    padding: 0.625em 1.25em;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 0.3125em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5em;
+    background-color: white;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 0.75em 1em;
+    text-align: left;
+}
+
+#message {
+    margin-top: 1em;
+    color: #c0392b;
+} 
