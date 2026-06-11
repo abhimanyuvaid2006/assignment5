@@ -12,7 +12,22 @@
         </header>
         <main>
             <div id="treeApp">
-
+                <label for="treeSearch">Select a Tree by Common Name:</label>
+                <select id="treeSearch">
+                    <option value="Ash">Ash</option>
+                    <option value="Oak">Oak</option>
+                    <option value="Elm">Elm</option>
+                    <option value="Maple">Maple</option>
+                    <option value="Birch">Birch</option>
+                    <option value="Spruce">Spruce</option>
+                    <option value="Pine">Pine</option>
+                    <option value="Poplar">Poplar</option>
+                    <option value="Linden">Linden</option>
+                    <option value="Willow">Willow</option>
+                </select>
+                <button onclick="displayTrees()">Search</button>
+                <div id="message"></div>
+                <table id="resultsTable"></table>
             </div>
         </main>
         <script src="script.js"></script>
